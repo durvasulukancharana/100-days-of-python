@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: aqua;
+            width: 100px;
+            height:100px;
+            position: relative;
+            top: 290px;
+            left: 690px;
+            border-radius: 50%;
+            z-index: 1;
+            
+        }
+        .parent1{
+            background-color: cadetblue;
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            top: 290px;
+            left: 690px;
+            border-radius: 50%;
+            animation: pablo 1s 5 reverse;
+        }
+        @keyframes pablo{
+            from {
+                top: 290px;
+                left: 690px;
+            }
+            to {
+                top: 280px;
+                left: 680px;
+            }
+        }
+        body{
+            background-color:chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+    </div>
+    <div class="parent1">
+
+    </div>
+</body>
+</html>
