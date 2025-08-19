@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            position:relative ;
+            border-radius: 50%;
+            animation: rotate 1s linear infinite normal ;
+            top: 240px;
+            left: 500px;
+            
+        }
+        div img{
+            position: relative;
+            border-radius: 50%;
+            background-color: black;
+            width: 140px;
+            height: 140px;
+        }
+        @keyframes rotate{
+            from{
+                top: 200px;
+                transform:rotate(0deg) ;
+            }
+            to{
+                top: 200px;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmsHyZ7DARIkLiggAeUY6c5c4DVV5iQZ50lg&s" alt="" ></div>
+</body>
+</html>
